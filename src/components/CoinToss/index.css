@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to Right, #e2a139, #a35200);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toss-container {
+  background-color: #ffffff;
+  height: 550px;
+  width: 80%;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .toss-container {
+    width: 60%;
+    max-width: 550px;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #a35200;
+  text-align: center;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 35px;
+  }
+}
+.details {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+  text-align: center;
+  font-weight: 500;
+}
+
+.toss-img {
+  height: 150px;
+  width: 150px;
+  margin: 5px;
+}
+@media screen and (min-width: 768px) {
+  .details {
+    font-size: 25px;
+  }
+  .toss-img {
+    height: 200px;
+    width: 200px;
+  }
+}
+.toss-coin-btn {
+  width: auto;
+  background-color: #e2a139;
+  outline: none;
+  color: #a35200;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0px;
+  padding: 4px;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+.results-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+.count {
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 15px;
+  margin: 8px;
+}
+@media screen and (min-width: 768px) {
+  .count {
+    font-size: 22px;
+    margin: 18px;
+  }
+}
